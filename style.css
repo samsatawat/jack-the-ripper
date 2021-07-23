@@ -44,7 +44,7 @@ body {
     font-size: 21px;
 }
 
-.text-act1 h1 {
+h.heading1 {
     font-size: 36px;
 }
 
@@ -89,9 +89,16 @@ body {
 .container4 {
     margin-top: 200px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    /* flex-direction: column; */
+    align-items:flex-start;
     justify-content: space-between;
+}
+
+.text-act4 {
+    color: white;
+    padding: 5%;
+    width: 30vw;
+    position: relative;
 }
 
 #hero, .layer {
