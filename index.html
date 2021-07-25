@@ -45,9 +45,9 @@
         <div class="scene2">
             <lottie-player 
             id="act2" 
-            src="https://assets10.lottiefiles.com/packages/lf20_gbr64him.json" 
+            src="https://assets9.lottiefiles.com/packages/lf20_bssytghz.json" 
             style=" width: 70vw; z-index: -1;"
-            ></lottie-player></lottie-player>
+            ></lottie-player>
         </div>
         <div class="text-act2">
             <p class="gs_reveal">In the pitch dark corner of the street, there is anonymous man rushing out and grab her neck with his left hand.</p>
@@ -73,10 +73,16 @@
     </section>
 
     <section class="container4">
-        <div class="text-act4">
+     <div class="textcolumn">
+            <div class="text-act4">
+                    <h1 class="heading gs_reveal">31st August 1888, 2:30am</h1>
+                    <p class="gs_reveal">During the gloomy night, there are prostitute women, who are walking alone in the dark foggy street around the junction of Osborne Street and Whitechapel High Street.</p>
+            </div>
+            <div class="text-act5">
                 <h1 class="heading gs_reveal">31st August 1888, 2:30am</h1>
                 <p class="gs_reveal">During the gloomy night, there are prostitute women, who are walking alone in the dark foggy street around the junction of Osborne Street and Whitechapel High Street.</p>
-        </div>
+            </div>
+    </div>
         <div class="scene4">
                 <lottie-player 
                 style="width: 50vw;"
@@ -94,15 +100,15 @@
                 mode: 'scroll',
                 player: '#act2',
                 actions: [
-                {
-                    visibility: [0, .3],
-                    type: 'stop',
-                    frames: [20, 100],
-                },
+                // {
+                //     visibility: [0, .3],
+                //     type: 'stop',
+                //     frames: [0, 240],
+                // },
                 {
                     visibility: [.3, .6],
                     type: 'seek',
-                    frames: [20, 100],
+                    frames: [0, 240],
                 },
                 ],
             });

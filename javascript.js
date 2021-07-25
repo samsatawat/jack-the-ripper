@@ -48,7 +48,7 @@ function animateFrom(elem, direction) {
       
       ScrollTrigger.create({
         trigger: elem,
-        markers: true,
+        markers: false,
         onEnter: function() { animateFrom(elem) }, 
         onEnterBack: function() { animateFrom(elem, -1) },
         onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view

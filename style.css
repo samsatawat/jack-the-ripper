@@ -94,12 +94,23 @@ h.heading1 {
     justify-content: space-between;
 }
 
+.textcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
 .text-act4 {
     color: white;
     padding: 5%;
     width: 30vw;
     position: relative;
 }
+
+.text-act5 {
+    color: white;
+    padding: 5%;  
+}
+
 
 #hero, .layer {
 	min-height: 800px;
