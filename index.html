@@ -47,6 +47,8 @@
             id="act2" 
             src="https://assets9.lottiefiles.com/packages/lf20_bssytghz.json" 
             style=" width: 70vw; z-index: -1;"
+            autoplay
+            loop
             ></lottie-player>
         </div>
         <div class="text-act2">
@@ -94,26 +96,27 @@
 </div>
 
 
-    <script>
-        window.addEventListener('load', () => {
-            LottieInteractivity.create({
-                mode: 'scroll',
-                player: '#act2',
-                actions: [
-                // {
-                //     visibility: [0, .3],
-                //     type: 'stop',
-                //     frames: [0, 240],
-                // },
-                {
-                    visibility: [.3, .6],
-                    type: 'seek',
-                    frames: [0, 240],
-                },
-                ],
-            });
-            })
-    </script>
+<!-- <script>
+    window.addEventListener('load', () => {
+        LottieInteractivity.create({
+            mode: 'scroll',
+            player: '#act2',
+            actions: [
+            {
+                visibility: [0, .2],
+                type: 'stop',
+                frames: [0, 900],
+            },
+            {
+                visibility: [.2, .8],
+                type: 'seek',
+                frames: [0, 900],
+            },
+            ],
+        });
+        })
+</script> -->
+
 
     <!-- <script>
         window.addEventListener('load', () => {
